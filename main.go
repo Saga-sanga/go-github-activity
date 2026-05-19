@@ -78,4 +78,6 @@ func fetchGithubActivity(username string) {
 		return
 	}
 
+	fmt.Printf("Events: %+v", events)
+
 }
